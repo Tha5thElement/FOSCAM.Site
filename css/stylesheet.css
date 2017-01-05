@@ -1,0 +1,91 @@
+/*Color pallet from picture*/
+
+
+/*RICH BLACK: #050517*/
+
+
+/*OuterSpace: #454851*/
+
+
+/*YankeesBlue: #141C45*/
+
+
+/*CAMBREIDGE BLUE: #A3BAB6*/
+
+
+/*EnglishVermillion: #D33F49*/
+
+
+/*This is for headers*/
+
+
+/*font-family: 'Taviraj';*/
+
+
+/*this is for body text*/
+
+
+/*font-family: 'Work Sans';*/
+
+body {
+    background-color: #A3BAB6;
+}
+
+h1 {
+    font-family: 'Taviraj';
+}
+
+.pText {
+    text-indent: 25px;
+    font-family: 'Work Sans';
+}
+
+#leftSideFrontPage {
+    height: auto;
+    width: auto;
+    background-color: black;
+    margin: auto;
+}
+
+#rightSideFrontPage {
+    height: auto;
+    width: auto;
+    background-color: black;
+    margin: auto;
+    text-align: center;
+}
+
+#camera1 {
+    background-color: black;
+}
+
+#camera2 {
+    background-color: black;
+}
+
+.navBarUpTop {
+    background-color: #ffffff;
+}
+
+#rightSideFrontPageImage {}
+
+.cameraPlaceholder {
+    overflow: hidden;
+}
+
+.tableHeaderCustom {
+    font-family: 'Work Sans', monospace;
+    font-size: 2em;
+    text-align: center;
+}
+
+.locationCameras {
+    font-family: "work sans", cursive;
+    font-size: 1.5em;
+}
+
+.h2Custom {
+    font-family: 'Work Sans', Cursive;
+    font-size: 3em;
+    text-align: center;
+}
