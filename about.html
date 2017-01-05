@@ -47,8 +47,8 @@
             </div>
             <div id="navbar" class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
-                    <li class="active"><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li class="active"><a href="about.html">About</a></li>
                     <li><a href="contact.html">Contact</a></li>
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Locations <span class="caret"></span></a>
@@ -95,12 +95,12 @@
                     </div>
                 </div>
                 <div class="col-md-4" id="personPic">
-                    <div id="muteYouTubeVideoPlayer1">
+                    <div id="muteYouTubeVideoPlayer">
                         <script async src="https://www.youtube.com/iframe_api" id="yt1"></script>
                         <script>
                             function onYouTubeIframeAPIReady() {
                                 var player;
-                                player = new YT.Player('muteYouTubeVideoPlayer1', {
+                                player = new YT.Player('muteYouTubeVideoPlayer', {
                                     videoId: 'rY8DSFZ08JQ', // YouTube Video ID
                                     width: 345, // Player width (in px)
                                     height: 200, // Player height (in px)
@@ -137,40 +137,7 @@
             <!-- Columns are always 50% wide, on mobile and desktop -->
             <div class="row">
                 <div class="col-md-4" id="personPic">
-                    <div id="muteYouTubeVideoPlayer">
-                        <script async src="https://www.youtube.com/iframe_api" id="yt2"></script>
-                        <script>
-                            function onYouTubeIframeAPIReady() {
-                                var player;
-                                player = new YT.Player('muteYouTubeVideoPlayer', {
-                                    videoId: '4RYmuYiOeM0', // YouTube Video ID
-                                    width: 345, // Player width (in px)
-                                    height: 200, // Player height (in px)
-                                    playerVars: {
-                                        autoplay: 1, // Auto-play the video on load
-                                        controls: 0, // Show pause/play buttons in player
-                                        showinfo: 0, // Hide the video title
-                                        modestbranding: 1, // Hide the Youtube Logo
-                                        loop: 1, // Run the video in a loop
-                                        fs: 1, // Hide the full screen button
-                                        cc_load_policy: 0, // Hide closed captions
-                                        iv_load_policy: 3, // Hide the Video Annotations
-                                        autohide: 1, // Hide video controls when playing
-                                        rel: 0, // hide related videos
-                                        playlist: '4RYmuYiOeM0'
-                                    },
-                                    events: {
-                                        onReady: function(e) {
-                                            e.target.mute();
-                                        }
-                                    }
-                                });
-                            }
-
-                            // Written by @labnol
-
-                        </script>
-                    </div>
+                    <img src="https://pbs.twimg.com/media/CXfcy_EWQAAt5wC.jpg" alt="harold">
                 </div>
                 <div class="col-md-8">
                     <div id="aboutBodyText" class="pText">
